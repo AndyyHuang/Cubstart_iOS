@@ -17,6 +17,7 @@ struct LoginView: View {
                 TextField("Email", text: $email)
                     .padding()
                 
+                // Use SecureField in practice, it is a TextField right now for demo purposes.
                 TextField("Password", text: $password)
                     .padding()
                 
