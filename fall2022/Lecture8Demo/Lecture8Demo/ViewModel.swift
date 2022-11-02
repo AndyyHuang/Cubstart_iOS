@@ -105,10 +105,13 @@ class ViewModel: ObservableObject {
     // Add an item to the shopping list
     func addShoppingListItem(newItem: ShoppingListItem) {
         let db = Firestore.firestore()
+        
         // Specify the document with its id that you want to add or modify.
         let ref = db.collection("ShoppingList").document(newItem.itemName)
+        
         // Add or modify the document to the database.
         ref.setData(["itemName": newItem.itemName, "quantity": newItem.quantity, "id": newItem.id])
+        
         // Add the item to the shopping list.
         self.shoppingList.append(newItem)
     }
