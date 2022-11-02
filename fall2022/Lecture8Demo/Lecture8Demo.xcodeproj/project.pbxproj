@@ -7,62 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9711435428F024FD007E6987 /* Lecture4DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711435328F024FD007E6987 /* Lecture4DemoApp.swift */; };
-		9711435628F024FD007E6987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711435528F024FD007E6987 /* ContentView.swift */; };
-		9711435828F024FE007E6987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9711435728F024FE007E6987 /* Assets.xcassets */; };
-		9711435B28F024FE007E6987 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9711435A28F024FE007E6987 /* Preview Assets.xcassets */; };
+		97BAFC942912E61F00D166A8 /* Lecture8DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFC932912E61F00D166A8 /* Lecture8DemoApp.swift */; };
+		97BAFC962912E61F00D166A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFC952912E61F00D166A8 /* ContentView.swift */; };
+		97BAFC982912E62000D166A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BAFC972912E62000D166A8 /* Assets.xcassets */; };
+		97BAFC9B2912E62000D166A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BAFC9A2912E62000D166A8 /* Preview Assets.xcassets */; };
+		97BAFCA72912E87900D166A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 97BAFCA62912E87900D166A8 /* FirebaseAuth */; };
+		97BAFCA92912E87900D166A8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 97BAFCA82912E87900D166A8 /* FirebaseFirestore */; };
+		97BAFCAB2912E97700D166A8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFCAA2912E97700D166A8 /* ViewModel.swift */; };
+		97BAFCAD2912F4B900D166A8 /* ShoppingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFCAC2912F4B900D166A8 /* ShoppingListItem.swift */; };
+		97BAFCAF2912F9E600D166A8 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFCAE2912F9E600D166A8 /* ShoppingListView.swift */; };
+		97BAFCB12912FA1E00D166A8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAFCB02912FA1E00D166A8 /* LoginView.swift */; };
+		97BAFCB32913178F00D166A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97BAFCB22913178F00D166A8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9711435028F024FD007E6987 /* Lecture4Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecture4Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9711435328F024FD007E6987 /* Lecture4DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture4DemoApp.swift; sourceTree = "<group>"; };
-		9711435528F024FD007E6987 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9711435728F024FE007E6987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9711435A28F024FE007E6987 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97BAFC902912E61F00D166A8 /* Lecture8Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecture8Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BAFC932912E61F00D166A8 /* Lecture8DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture8DemoApp.swift; sourceTree = "<group>"; };
+		97BAFC952912E61F00D166A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97BAFC972912E62000D166A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97BAFC9A2912E62000D166A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97BAFCAA2912E97700D166A8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		97BAFCAC2912F4B900D166A8 /* ShoppingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListItem.swift; sourceTree = "<group>"; };
+		97BAFCAE2912F9E600D166A8 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		97BAFCB02912FA1E00D166A8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		97BAFCB22913178F00D166A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9711434D28F024FD007E6987 /* Frameworks */ = {
+		97BAFC8D2912E61F00D166A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BAFCA72912E87900D166A8 /* FirebaseAuth in Frameworks */,
+				97BAFCA92912E87900D166A8 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9711434728F024FD007E6987 = {
+		97BAFC872912E61F00D166A8 = {
 			isa = PBXGroup;
 			children = (
-				9711435228F024FD007E6987 /* Lecture4Demo */,
-				9711435128F024FD007E6987 /* Products */,
+				97BAFC922912E61F00D166A8 /* Lecture8Demo */,
+				97BAFC912912E61F00D166A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9711435128F024FD007E6987 /* Products */ = {
+		97BAFC912912E61F00D166A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9711435028F024FD007E6987 /* Lecture4Demo.app */,
+				97BAFC902912E61F00D166A8 /* Lecture8Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9711435228F024FD007E6987 /* Lecture4Demo */ = {
+		97BAFC922912E61F00D166A8 /* Lecture8Demo */ = {
 			isa = PBXGroup;
 			children = (
-				9711435328F024FD007E6987 /* Lecture4DemoApp.swift */,
-				9711435528F024FD007E6987 /* ContentView.swift */,
-				9711435728F024FE007E6987 /* Assets.xcassets */,
-				9711435928F024FE007E6987 /* Preview Content */,
+				97BAFC932912E61F00D166A8 /* Lecture8DemoApp.swift */,
+				97BAFC952912E61F00D166A8 /* ContentView.swift */,
+				97BAFCAA2912E97700D166A8 /* ViewModel.swift */,
+				97BAFCAE2912F9E600D166A8 /* ShoppingListView.swift */,
+				97BAFCB02912FA1E00D166A8 /* LoginView.swift */,
+				97BAFCAC2912F4B900D166A8 /* ShoppingListItem.swift */,
+				97BAFCB22913178F00D166A8 /* GoogleService-Info.plist */,
+				97BAFC972912E62000D166A8 /* Assets.xcassets */,
+				97BAFC992912E62000D166A8 /* Preview Content */,
 			);
-			path = Lecture4Demo;
+			path = Lecture8Demo;
 			sourceTree = "<group>";
 		};
-		9711435928F024FE007E6987 /* Preview Content */ = {
+		97BAFC992912E62000D166A8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9711435A28F024FE007E6987 /* Preview Assets.xcassets */,
+				97BAFC9A2912E62000D166A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +89,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9711434F28F024FD007E6987 /* Lecture4Demo */ = {
+		97BAFC8F2912E61F00D166A8 /* Lecture8Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9711435E28F024FE007E6987 /* Build configuration list for PBXNativeTarget "Lecture4Demo" */;
+			buildConfigurationList = 97BAFC9E2912E62000D166A8 /* Build configuration list for PBXNativeTarget "Lecture8Demo" */;
 			buildPhases = (
-				9711434C28F024FD007E6987 /* Sources */,
-				9711434D28F024FD007E6987 /* Frameworks */,
-				9711434E28F024FD007E6987 /* Resources */,
+				97BAFC8C2912E61F00D166A8 /* Sources */,
+				97BAFC8D2912E61F00D166A8 /* Frameworks */,
+				97BAFC8E2912E61F00D166A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lecture4Demo;
-			productName = Lecture4Demo;
-			productReference = 9711435028F024FD007E6987 /* Lecture4Demo.app */;
+			name = Lecture8Demo;
+			packageProductDependencies = (
+				97BAFCA62912E87900D166A8 /* FirebaseAuth */,
+				97BAFCA82912E87900D166A8 /* FirebaseFirestore */,
+			);
+			productName = Lecture8Demo;
+			productReference = 97BAFC902912E61F00D166A8 /* Lecture8Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9711434828F024FD007E6987 /* Project object */ = {
+		97BAFC882912E61F00D166A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					9711434F28F024FD007E6987 = {
+					97BAFC8F2912E61F00D166A8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9711434B28F024FD007E6987 /* Build configuration list for PBXProject "Lecture4Demo" */;
+			buildConfigurationList = 97BAFC8B2912E61F00D166A8 /* Build configuration list for PBXProject "Lecture8Demo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +133,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 9711434728F024FD007E6987;
-			productRefGroup = 9711435128F024FD007E6987 /* Products */;
+			mainGroup = 97BAFC872912E61F00D166A8;
+			packageReferences = (
+				97BAFCA52912E87900D166A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 97BAFC912912E61F00D166A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9711434F28F024FD007E6987 /* Lecture4Demo */,
+				97BAFC8F2912E61F00D166A8 /* Lecture8Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9711434E28F024FD007E6987 /* Resources */ = {
+		97BAFC8E2912E61F00D166A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9711435B28F024FE007E6987 /* Preview Assets.xcassets in Resources */,
-				9711435828F024FE007E6987 /* Assets.xcassets in Resources */,
+				97BAFC9B2912E62000D166A8 /* Preview Assets.xcassets in Resources */,
+				97BAFC982912E62000D166A8 /* Assets.xcassets in Resources */,
+				97BAFCB32913178F00D166A8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9711434C28F024FD007E6987 /* Sources */ = {
+		97BAFC8C2912E61F00D166A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9711435628F024FD007E6987 /* ContentView.swift in Sources */,
-				9711435428F024FD007E6987 /* Lecture4DemoApp.swift in Sources */,
+				97BAFCB12912FA1E00D166A8 /* LoginView.swift in Sources */,
+				97BAFCAD2912F4B900D166A8 /* ShoppingListItem.swift in Sources */,
+				97BAFC962912E61F00D166A8 /* ContentView.swift in Sources */,
+				97BAFC942912E61F00D166A8 /* Lecture8DemoApp.swift in Sources */,
+				97BAFCAF2912F9E600D166A8 /* ShoppingListView.swift in Sources */,
+				97BAFCAB2912E97700D166A8 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9711435C28F024FE007E6987 /* Debug */ = {
+		97BAFC9C2912E62000D166A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		9711435D28F024FE007E6987 /* Release */ = {
+		97BAFC9D2912E62000D166A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +292,14 @@
 			};
 			name = Release;
 		};
-		9711435F28F024FE007E6987 /* Debug */ = {
+		97BAFC9F2912E62000D166A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lecture4Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lecture8Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,13 +307,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AndyHuang.Lecture4Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyHuang.Lecture8Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +320,14 @@
 			};
 			name = Debug;
 		};
-		9711436028F024FE007E6987 /* Release */ = {
+		97BAFCA02912E62000D166A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lecture4Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lecture8Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,13 +335,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AndyHuang.Lecture4Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyHuang.Lecture8Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +351,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9711434B28F024FD007E6987 /* Build configuration list for PBXProject "Lecture4Demo" */ = {
+		97BAFC8B2912E61F00D166A8 /* Build configuration list for PBXProject "Lecture8Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9711435C28F024FE007E6987 /* Debug */,
-				9711435D28F024FE007E6987 /* Release */,
+				97BAFC9C2912E62000D166A8 /* Debug */,
+				97BAFC9D2912E62000D166A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9711435E28F024FE007E6987 /* Build configuration list for PBXNativeTarget "Lecture4Demo" */ = {
+		97BAFC9E2912E62000D166A8 /* Build configuration list for PBXNativeTarget "Lecture8Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9711435F28F024FE007E6987 /* Debug */,
-				9711436028F024FE007E6987 /* Release */,
+				97BAFC9F2912E62000D166A8 /* Debug */,
+				97BAFCA02912E62000D166A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97BAFCA52912E87900D166A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97BAFCA62912E87900D166A8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97BAFCA52912E87900D166A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		97BAFCA82912E87900D166A8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97BAFCA52912E87900D166A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9711434828F024FD007E6987 /* Project object */;
+	rootObject = 97BAFC882912E61F00D166A8 /* Project object */;
 }
