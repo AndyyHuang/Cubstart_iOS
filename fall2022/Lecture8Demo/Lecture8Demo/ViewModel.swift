@@ -46,12 +46,12 @@ class ViewModel: ObservableObject {
                 return
             }
             
-            // Use this if you want to get the user's id to create a db entry for the user's data.
-            // var userID = result?.user.uid ?? ""
-            
             // At this point, the user has successfully logged in. Load user's data.
             self.userIsLoggedIn = true
             self.fetchShoppingList()
+            
+            // Use this if you want to get the user's id to fetch the user's data from the db.
+            // var userID = result?.user.uid ?? ""
         }
     }
     
