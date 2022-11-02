@@ -28,6 +28,8 @@ class ViewModel: ObservableObject {
             
             // At this point the user has successfully registered. Can do anything you want here after the user has registered.
             
+            // Use this if you want to get the user's id to create a db entry for the user's data.
+            // var userID = result?.user.uid ?? ""
         }
     }
     
@@ -44,7 +46,10 @@ class ViewModel: ObservableObject {
                 return
             }
             
-            // At this point, the user has successfully logged in.
+            // Use this if you want to get the user's id to create a db entry for the user's data.
+            // var userID = result?.user.uid ?? ""
+            
+            // At this point, the user has successfully logged in. Load user's data.
             self.userIsLoggedIn = true
             self.fetchShoppingList()
         }
