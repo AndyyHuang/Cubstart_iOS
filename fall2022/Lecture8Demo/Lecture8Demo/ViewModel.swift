@@ -58,7 +58,7 @@ class ViewModel: ObservableObject {
     // Signs the user out.
     func signOut() {
         // Only log the user out if they are logged in.
-        if (!userIsLoggedIn) {
+        if (!self.userIsLoggedIn) {
             print("No user logged in.")
             return
         }
@@ -66,7 +66,7 @@ class ViewModel: ObservableObject {
         // Wrap inside a do block to catch errors.
         do {
             try Auth.auth().signOut()
-            userIsLoggedIn = false
+            self.userIsLoggedIn = false
         // Catch error instead of crashing if log out fails.
         } catch let signOutError as NSError {
             print("Error signing out: %@", signOutError)
