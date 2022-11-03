@@ -18,6 +18,8 @@ class ViewModel: ObservableObject {
     
     // Registers a user.
     func register(email: String, password: String) {
+        // Add any password or username constraints here.
+        
         Auth.auth().createUser(withEmail: email, password: password) { result, error in
             // Begin Completion Handler
             if let err = error {
@@ -35,8 +37,6 @@ class ViewModel: ObservableObject {
     
     // Logs in a user
     func login(email: String, password: String) {
-        // Add any password or username constraints here.
-        
         // Log the user in with Firebase.
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             // Begin Completion Handler

@@ -10,6 +10,7 @@ import Firebase
 
 @main
 struct Lecture8DemoApp: App {
+    
     init() {
         FirebaseApp.configure()
     }
