@@ -11,17 +11,17 @@ class Swifty {
     }
     
     /* Task 1: Explore
-        - If energy is less than 20, then don't visit any tree.
-        - Else if the tree is a Redwood OR Sequoia, then decrease energy by 20 and add the tree to visited.
-        - Otherwise, for all other trees, decrease energy by 10 and add the tree to visited.
-    */
+     - If energy is less than 20, then don't visit any tree.
+     - Else if the tree is a Redwood OR Sequoia, then decrease energy by 20 and add the tree to visited.
+     - Otherwise, for all other trees, decrease energy by 10 and add the tree to visited.
+     */
     func visitRandomTree() -> Void {
         var randomTree = trees.randomElement()!
         // TODO: CODE HERE
         
         if (energy < 20) {
             return
-        } else if ( ... ) {
+        } else if (...) {
             
         } else {
             
@@ -29,21 +29,34 @@ class Swifty {
     }
     
     /* Task 2: Rest
-        - Recover 100 energy, but make sure energy does not go past 300!
-    */
+     - Recover 100 energy, but make sure energy does not go past 300!
+     */
     func rest() -> Void {
         // TODO: CODE HERE
+        energy += 100
     }
     
     /* Task 3: Homesick
-        - Remember to only increment the count if you see "Bonsai" in the visited array!
-    */
+     - Remember to only increment the count if you see "Bonsai" in the visited array!
+     */
     func homesickness() -> Int {
         var count = 0
         // TODO: CODE HERE
+        
         for tree in visited {
             
         }
-        return ...
+        
+        return
+    }
+    
+    /* (Optional) Task 4: Reminisce
+     - Hint: Iterate over visited and use a dictionary to store how many times Swifty has visited each tree.
+     */
+    func reminisce() -> String {
+        var visitedCounts: [String:Int] = [:]
+        // TODO: CODE HERE
+        
+        return
     }
 }
